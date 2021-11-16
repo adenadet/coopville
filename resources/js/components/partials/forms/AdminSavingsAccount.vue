@@ -80,7 +80,7 @@ export default {
                     icon: 'success',
                     title: 'Saving Account was successfully added!',
                 });
-                thisa.$router.push('/admin_area/dashboard');
+                this.$router.push('/admin_area/dashboard');
             })
             .catch(()=>{
                 this.$Progress.fail();
